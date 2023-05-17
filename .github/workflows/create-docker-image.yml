@@ -36,7 +36,7 @@ jobs:
           #context: Dockerfile
           # Note: tags has to be all lower-case
           tags: |
-            ghcr.io/simple:latest
+            ghcr.io/cyperplex/github-image-test/testimage:version
           # build on feature branches, push only on main branch
           push: ${{ github.ref == 'refs/heads/main' }}
 
